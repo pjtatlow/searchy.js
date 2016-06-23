@@ -1,7 +1,7 @@
 # Searchy 
 #####(aka Searchy McSearchBox)
 ---
-A pretty jQuery plugin search box that works with [lunr.js](http://lunrjs.com). Demo [here](http://pjtatlow.me/notes) (hint: press Shift + Space to see it).
+A pretty jQuery plugin search box for blogs that works with [lunr.js](http://lunrjs.com). Demo [here](http://pjtatlow.me/notes) (hint: press Shift + Space to see it).
 
 ---
 ##Dependencies:
