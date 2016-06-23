@@ -1,0 +1,214 @@
+$brand-primary:         #579A00 !default;
+.searchy-background {
+  position: fixed;  
+  height: 100vh;
+  min-width: 100%;
+  z-index: 8888;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  display: none;
+  
+  .searchy-cover {
+    position: absolute;
+    height: 55px;
+    width: 80%;
+    width: 100%;
+    max-width: 700px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    .searchy-box {
+      background-color: rgba(246,246,246,.99);
+      position: absolute;
+      border-radius: 7px;
+      z-index: -1;
+      -webkit-box-shadow: 0px 14px 32px 0px rgba(0,0,0,0.75);
+      -moz-box-shadow: 0px 14px 32px 0px rgba(0,0,0,0.75);
+      box-shadow: 0px 14px 32px 0px rgba(0,0,0,0.75);  
+      clear: both;
+      width: 100%;
+      max-width: 700px;
+      
+      
+      .input-group {
+        
+        .searchy-addon {
+          position: relative;
+          background: transparent;
+          height: 55px !important;
+          border: none;
+          font-size: 24px;
+        }
+
+        .searchy-input {
+          margin: 0;
+          height: 55px;
+          border: none;
+          background: transparent;
+          font-size: 24px;
+
+          &:active {
+            box-shadow: none;
+          }
+          &:focus {
+            box-shadow: none;
+          }
+          &:hover {
+            box-shadow: none;
+          }
+
+        }        
+        
+      }
+      
+      
+      .searchy-input-cover {
+        position: absolute;
+        height: 55px;
+        width: 100%;
+        left: 0;
+        top: 0;
+        z-index: 8900;
+      }
+      
+      
+      .searchy-bottom {
+        position: relative;
+        border-top: 1px solid RGB(224, 221, 216);
+        padding: 0;
+        max-height: 400px;
+        
+        .searchy-results {
+          border-right: 1px solid RGB(228, 228, 228);
+          overflow-x: hidden;
+          overflow-y: scroll;
+          padding: 0;
+          width: 40%;
+          display: inline-block;
+          float: left;
+          
+          
+          .searchy-results-title {
+            padding-left: 12px;
+            background-color: rgb(220,220,220);
+            margin: 0;
+            padding-top: 10px;
+            padding-bottom: 10px;
+          }
+          
+          
+          .searchy-result {
+            padding-top: 3px;
+            padding-bottom: 3px;
+            padding-left: 12px;  
+            vertical-align: middle;  
+            h5 {
+              position: relative;
+              max-width: 90%;    
+              white-space: nowrap;
+              text-overflow:clip;
+              overflow: hidden;
+              display: inline-block;
+              line-height: normal !important;
+              cursor: default;
+            }
+
+            a {
+              float: right;
+              color: rgb(96,96,96);
+              margin-right: 5px;
+              display: inline-block;
+              margin-top: 10px;
+
+            }  
+            &:focus {
+              outline: none;
+            }
+            &.selected {
+              outline: none;
+              background-color: $brand-primary;
+              color: #eee;
+              a {
+                color: #eee;
+              }
+            }
+            &.striped {
+              background-color: rgb(228,228,228);
+              &.selected {
+                outline: none;
+                background-color: $brand-primary;
+                color: #eee;
+                a {
+                  color: #eee;
+                }
+              }
+            }
+          }          
+          
+        }
+        
+        .searchy-results-preview {
+          position: relative;
+          display: inline-block;
+          float: left;
+          width: 60%;
+          padding: 0;
+          overflow-y: scroll;
+          max-height: inherit;
+
+          h5 {
+            margin: 0;
+            padding-top: 10px;
+            padding-bottom: 10px;
+          }
+
+          .searchy-preview-container {
+            padding: 10px;
+
+          }          
+          
+          .searchy-results-preview-meta {
+            border-top: 1px solid RGB(228, 228, 228);
+            padding-top: 10px;
+            padding-left: 12px;
+          }  
+        }
+        
+      }
+      
+      
+      
+    }
+    
+    
+  }
+  
+
+}
+.searchy-button {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 50%;
+  border: none;
+  margin: auto;
+  background-color: $brand-primary;
+  color: #eee;
+  font-size: 18px;
+  height: 45px;
+  width: 45px;
+  -webkit-box-shadow: 2px 3px 3px 0px rgba(41, 41, 41, .3);
+     -moz-box-shadow: 2px 3px 3px 0px rgba(41, 41, 41, .3);
+          box-shadow: 2px 3px 3px 0px rgba(41, 41, 41, .3);
+  &:hover {
+    background-color: #ff4060;
+  }
+  i {
+    line-height: normal;
+  }
+}
