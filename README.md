@@ -5,7 +5,7 @@ A pretty jQuery plugin search box for blogs that works with [lunr.js](http://lun
 
 ---
 ##Dependencies:
-* [Bootstrap CSS](getbootstrap.com) (including glyphicons)
+* [Bootstrap CSS](http://getbootstrap.com) (including glyphicons)
 * [jQuery](http://jquery.com)
 * [Lunr.js](http://lunrjs.com)
 * [jQuery UI](https://jqueryui.com) (OPTIONAL: You really only need "draggable")
@@ -172,8 +172,8 @@ git push
 Done!
 
 ##Final Thoughts
-If you're using this anywhere let me know on [twitter](twitter.com/pjtatlow).
+If you're using this anywhere let me know on [twitter](http://twitter.com/pjtatlow).
 
-Also if you could provide a link to my site [pjtatlow.me](pjtatlow.me) that would be awesome!
+Also if you could provide a link to my site [pjtatlow.me](http://pjtatlow.me) that would be awesome!
 
 
