@@ -1,0 +1,24 @@
+{
+  "name": "searchy.js",
+  "description": "JQuery and Lunr.js blog search plugin",
+  "main": "dist/searchy.min.js",
+  "authors": [
+    "PJ Tatlow"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "blog",
+    "search",
+    "Searchy",
+    "McSearchBox"
+  ],
+  "homepage": "https://github.com/pjtatlow/searchy.js",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
